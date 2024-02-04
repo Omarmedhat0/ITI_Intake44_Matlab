@@ -4,4 +4,4 @@
 
 ## **Solution**
 
-![Screenshot (137)](E:\ITI\matlab\Repo\ITI_Intake44_Matlab\MBD\Assignment4\assets\imag1.png)
+![Screenshot (137)](assets\imag1.png)
