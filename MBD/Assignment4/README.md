@@ -4,4 +4,4 @@
 
 ## **Solution**
 
-![Screenshot (137)](assets\imag1.png)
+![imag1](README.assets\imag1.png)
