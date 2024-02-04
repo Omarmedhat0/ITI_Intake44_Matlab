@@ -4,4 +4,3 @@
 
 ## **Solution**
 
-![imag1](README.assets\imag1.jpeg)
