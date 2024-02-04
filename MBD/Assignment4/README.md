@@ -1,11 +1,7 @@
-# Assignment3
+# Assignment4
 
-* Implement  factorial calculator using For Loop and Matlab Func included Code Generation
+* **Perform Incremental and Decremental Counter using Unit Delay** 
 
+## **Solution**
 
-
-* Implement factorial calculator using While Loop
-
-
-
-* Implement grading system using If Conditional
+![Screenshot (137)](E:\ITI\matlab\Repo\ITI_Intake44_Matlab\MBD\Assignment4\assets\imag1.png)
