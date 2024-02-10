@@ -4,4 +4,4 @@
 
 ## **Solution**
 
-![imag1](README.assets\imag1.jpeg)
+![imag1](https://github.com/Omarmedhat0/ITI_Intake44_Matlab/assets/108958395/e26cfd22-54ed-4164-8a56-e2318ce79858)
