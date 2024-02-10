@@ -1,0 +1,35 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "EnumAssignslx"};
+	this.sidHashMap["EnumAssignslx"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<S1>"] = {sid: "EnumAssignslx:22"};
+	this.sidHashMap["EnumAssignslx:22"] = {rtwname: "<S1>"};
+	this.rtwnameHashMap["<Root>/In1"] = {sid: "EnumAssignslx:6"};
+	this.sidHashMap["EnumAssignslx:6"] = {rtwname: "<Root>/In1"};
+	this.rtwnameHashMap["<Root>/In2"] = {sid: "EnumAssignslx:11"};
+	this.sidHashMap["EnumAssignslx:11"] = {rtwname: "<Root>/In2"};
+	this.rtwnameHashMap["<Root>/In3"] = {sid: "EnumAssignslx:16"};
+	this.sidHashMap["EnumAssignslx:16"] = {rtwname: "<Root>/In3"};
+	this.rtwnameHashMap["<Root>/Bus Selector"] = {sid: "EnumAssignslx:8"};
+	this.sidHashMap["EnumAssignslx:8"] = {rtwname: "<Root>/Bus Selector"};
+	this.rtwnameHashMap["<Root>/Bus Selector1"] = {sid: "EnumAssignslx:12"};
+	this.sidHashMap["EnumAssignslx:12"] = {rtwname: "<Root>/Bus Selector1"};
+	this.rtwnameHashMap["<Root>/MATLAB Function"] = {sid: "EnumAssignslx:22"};
+	this.sidHashMap["EnumAssignslx:22"] = {rtwname: "<Root>/MATLAB Function"};
+	this.rtwnameHashMap["<Root>/Out1"] = {sid: "EnumAssignslx:9"};
+	this.sidHashMap["EnumAssignslx:9"] = {rtwname: "<Root>/Out1"};
+	this.rtwnameHashMap["<Root>/Out2"] = {sid: "EnumAssignslx:10"};
+	this.sidHashMap["EnumAssignslx:10"] = {rtwname: "<Root>/Out2"};
+	this.rtwnameHashMap["<Root>/Out3"] = {sid: "EnumAssignslx:13"};
+	this.sidHashMap["EnumAssignslx:13"] = {rtwname: "<Root>/Out3"};
+	this.rtwnameHashMap["<Root>/Out4"] = {sid: "EnumAssignslx:14"};
+	this.sidHashMap["EnumAssignslx:14"] = {rtwname: "<Root>/Out4"};
+	this.rtwnameHashMap["<Root>/y"] = {sid: "EnumAssignslx:23"};
+	this.sidHashMap["EnumAssignslx:23"] = {rtwname: "<Root>/y"};
+	this.rtwnameHashMap["<S1>:1"] = {sid: "EnumAssignslx:22:1"};
+	this.sidHashMap["EnumAssignslx:22:1"] = {rtwname: "<S1>:1"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();
