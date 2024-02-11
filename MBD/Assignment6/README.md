@@ -1,4 +1,4 @@
-![Screenshot (165)](https://github.com/Omarmedhat0/ITI_Intake44_Matlab/assets/108958395/acacc3f4-e8e0-424d-a349-3bd8609b7bd4)# Assignment 6
+# Assignment 6
 
 * Create Traffic Light Using chart
 
